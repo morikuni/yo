@@ -1,13 +1,15 @@
 module go.mercari.io/yo
 
-go 1.21
+go 1.22.0
+
+toolchain go1.23.2
 
 require (
 	cloud.google.com/go v0.110.0
 	cloud.google.com/go/spanner v1.45.0
-	github.com/cloudspannerecosystem/memefish v0.0.0-20231022025528-9cf0b5bd2d80
+	github.com/cloudspannerecosystem/memefish v0.0.0-20241106111047-2b2b4b23a1e7
 	github.com/gedex/inflector v0.0.0-20170307190818-16278e9db813
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/googleapis/gax-go/v2 v2.7.1
 	github.com/jessevdk/go-assets v0.0.0-20160921144138-4f4301a06e15
 	github.com/jinzhu/inflection v1.0.0
@@ -41,7 +43,7 @@ require (
 	golang.org/x/mod v0.9.0 // indirect
 	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/oauth2 v0.7.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
+	golang.org/x/sys v0.26.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
